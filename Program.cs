@@ -1,0 +1,25 @@
+﻿//using SolidEdgeFramework;
+//using SolidEdgePart;
+//using SolidEdgeGeometry;
+//using SolidEdgeCommunity;
+using System;
+
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+
+namespace ScriptSolidEdge
+{
+    class Program
+    {
+        [STAThread]
+        static void Main(string[] args)
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form());
+        }
+    }
+}
